@@ -57,7 +57,18 @@ A full-stack application for managing todos, generating summaries with AI, and s
 
 ## Deployment
 
+Backend:
+Deploy to Heroku, Render, or similar service
+Set environment variables in the hosting platform
 
+Frontend:
+Deploy to Vercel, Netlify, or Firebase Hosting
+Set the REACT_APP_API_URL to your deployed backend URL
+Update the connection string in your backend .env
+
+Database:
+
+Use Supabase's free tier for PostgreSQL
 This solution provides a complete implementation of the Todo Summary Assistant with all required features. The architecture is clean and modular, making it easy to maintain and extend. The application handles all the core requirements:
 
 Todo management (CRUD operations)
